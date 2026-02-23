@@ -1,0 +1,64 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background and general text */
+body {
+  background-color: #e6e6fa; /* light lavender shade */
+  font-family: Arial, sans-serif; /* fallback font */
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Main heading styled with Algerian font */
+h1 {
+  font-family: Algerian, serif; /* Algerian font with serif fallback */
+  color: #4b0082; /* deep purple */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Section headings also in Algerian */
+h2 {
+  font-family: Algerian, serif;
+  color: #800080; /* purple */
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Contact section */
+.contact {
+  background-color: #f3e5f5; /* very light purple */
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+
